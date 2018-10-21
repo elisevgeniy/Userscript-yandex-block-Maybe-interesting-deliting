@@ -1,1 +1,1 @@
-"# Userscript-yandex-block-Maybe-interesting-deliting" 
+Скрипт просто не даёт появляться этому нововведению Яндекса
