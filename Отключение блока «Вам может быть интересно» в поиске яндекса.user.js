@@ -12,8 +12,10 @@
     'use strict';
 
 console.log("Отключение блока «Вам может быть интересно»");
+console.log("Найдено " + $(".organic.organic_with-recommendations_yes").length + " элементов для исправления");
 $(".organic.organic_with-recommendations_yes").get().map(function(item) {
     item.classList.remove("organic", "organic_with-recommendations_yes");
 });
+console.log("После исправления найдено " + $(".organic.organic_with-recommendations_yes").length + " элементов для исправления");
 
 })();
